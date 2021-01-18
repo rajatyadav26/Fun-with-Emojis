@@ -54,6 +54,7 @@ export default function App() {
       </div>
       <input
         className={"txt-input"}
+        value={emojis}
         placeholder={"Enter emoji here to see its meaning"}
         onChange={emojiInputHandler}
       />
