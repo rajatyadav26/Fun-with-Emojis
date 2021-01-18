@@ -15,19 +15,15 @@ body {
   margin: auto;
 }
 
-.emoji-logo {
-  max-width: 400px;
-  max-height: 150px;
-  display: block;
-  margin: auto;
-  margin-bottom: 2rem;
-  text-align: center;
-}
-
-header {
-  background-color: green;
+nav {
+  background-color: #10b981;
   padding: 0.2rem;
   margin-bottom: 6rem;
+}
+
+.center-conatiner {
+  margin-top: 1rem;
+  display: block;
 }
 
 span {
