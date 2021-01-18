@@ -7,7 +7,7 @@ const emojiData = {
   "😳": "disbelief",
   "😔": "sad",
   "❤️": "love",
-  "😑": "annoyance",
+  "😑": "expressionless",
   "👋": "waving",
   "👏": "clapping",
   "👌": "ok",
@@ -61,8 +61,9 @@ export default function App() {
           onChange={emojiInputHandler}
         />
 
-        <h3>{emojiMeaning}</h3>
+        <h3>Meaning : {emojiMeaning}</h3>
 
+        <h2>Emojis in our database</h2>
         {emojis.map(function (emojiSelected) {
           return (
             <span
