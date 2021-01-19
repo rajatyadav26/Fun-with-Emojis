@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import "./styles.css";
-import { ReactComponent as Logo } from "./Emoji.svg";
 
 const emojiData = {
   "😊": "Smiling",
-  "😳": "disbelief",
+  "😳": "surprised",
   "😔": "sad",
   "❤️": "love",
   "😑": "expressionless",
@@ -46,13 +45,6 @@ export default function App() {
       <nav>
         <h1>Fun with Emojis</h1>
       </nav>
-
-      <div
-        style={{ maxHeight: "300px", display: "block" }}
-        className={"emoji-logo"}
-      >
-        <Logo />
-      </div>
 
       <header className={"center-conatiner"}>
         <input
